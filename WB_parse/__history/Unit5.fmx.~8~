@@ -1,0 +1,89 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 520
+  ClientWidth = 826
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 408.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 417.000000000000000000
+    Size.Height = 233.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 413.000000000000000000
+    Viewport.Height = 229.000000000000000000
+  end
+  object Button1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 480.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #1055#1086#1083#1091#1095#1080#1090#1100' '#1076#1072#1085#1085#1099#1077
+    OnClick = Button1Click
+  end
+  object WebBrowser1: TWebBrowser
+    Size.Width = 825.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Name: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 280.000000000000000000
+    Text = #1053#1072#1079#1074#1072#1085#1080#1077' '#1090#1086#1074#1072#1088#1072':'
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label2'
+    TabOrder = 5
+  end
+  object Brand: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 232.000000000000000000
+    Text = #1041#1088#1077#1085#1076
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 304.000000000000000000
+    Text = 'Label1'
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Position.X = 168.000000000000000000
+    Position.Y = 480.000000000000000000
+    TabOrder = 8
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
+  object IdHTTP1: TIdHTTP
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    Request.Ranges.Units = 'bytes'
+    Request.Ranges = <>
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 32
+    Top = 16
+  end
+end
